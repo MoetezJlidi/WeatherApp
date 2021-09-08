@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="626.0" prefWidth="743.0" style="-fx-background-color: PaleGoldenRod;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.appmeteo.controller.AppMeteoController">
+   <children>
+      <SplitPane dividerPositions="0.2388663967611336, 0.7827260458839406, 0.5" layoutY="104.0" prefHeight="521.0" prefWidth="743.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="456.0" prefWidth="59.0" style="-fx-background-color: LightBlue;">
+               <children>
+                  <TextArea fx:id="favlist" layoutX="8.0" layoutY="60.0" prefHeight="332.0" prefWidth="159.0" />
+                  <Label layoutX="29.0" layoutY="14.0" text="Favoris">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="addB" layoutX="29.0" layoutY="410.0" mnemonicParsing="false" onMouseClicked="#AddVille" prefHeight="25.0" prefWidth="111.0" text="Ajouter" />
+                  <Button fx:id="delB" layoutX="29.0" layoutY="453.0" mnemonicParsing="false" onMouseClicked="#RemoveVille" prefHeight="25.0" prefWidth="111.0" text="Supprimer" />
+                  <Label fx:id="countfav" layoutX="117.0" layoutY="23.0" text="N/6" />
+               </children>
+            </AnchorPane>
+            <AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="457.0" prefWidth="164.0" style="-fx-background-color: LightBlue;">
+               <children>
+                  <Label fx:id="txt_nom_ville" layoutX="27.0" layoutY="122.0" text="Nom de la ville ">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="mB" layoutX="85.0" layoutY="44.0" mnemonicParsing="false" onMouseClicked="#MinusDate" prefHeight="25.0" prefWidth="25.0" text="&lt;" />
+                  <Button fx:id="plusB" layoutX="304.0" layoutY="43.0" mnemonicParsing="false" onMouseClicked="#AddDate" prefHeight="25.0" prefWidth="25.0" text="&gt;" />
+                  <Label layoutX="85.0" layoutY="182.0" text="Matin :">
+                     <font>
+                        <Font size="26.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="85.0" layoutY="263.0" text="Après-midi :">
+                     <font>
+                        <Font size="26.0" />
+                     </font>
+                  </Label>
+                  <ImageView fx:id="imgM" fitHeight="44.0" fitWidth="45.0" layoutX="307.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true" />
+                  <Button fx:id="prevB" layoutX="105.0" layoutY="378.0" mnemonicParsing="false" onMouseClicked="#ShowHourly" prefHeight="25.0" prefWidth="211.0" text="Prévisions  heure par heure" />
+                  <Label fx:id="mdeg" layoutX="291.0" layoutY="178.0" text="0 ° C">
+                     <font>
+                        <Font size="32.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="adeg" layoutX="291.0" layoutY="259.0" text="0 ° C">
+                     <font>
+                        <Font size="32.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="datetxt" layoutX="155.0" layoutY="40.0" text="Date">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="curdeg" layoutX="211.0" layoutY="117.0" text="0 ° C">
+                     <font>
+                        <Font size="32.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="courbeB" layoutX="106.0" layoutY="418.0" mnemonicParsing="false" onMouseClicked="#ShowCourbe" prefHeight="25.0" prefWidth="211.0" text="Courbe de température" />
+                  <Button fx:id="courbeB1" layoutX="106.0" layoutY="457.0" mnemonicParsing="false" onMouseClicked="#ShowCourbe1" prefHeight="25.0" prefWidth="211.0" text="Courbe de précipitation" />
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="465.0" prefWidth="371.0" style="-fx-background-color: AntiqueWhite;" />
+            <VBox fx:id="stack" prefHeight="508.0" prefWidth="149.0" style="-fx-background-color: LightBlue;" />
+        </items>
+      </SplitPane>
+      <Label layoutX="34.0" layoutY="22.0" text="Ville">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="398.0" layoutY="22.0" text="Date">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txt_ville" layoutX="115.0" layoutY="27.0" />
+      <Button layoutX="296.0" layoutY="65.0" mnemonicParsing="false" onMouseClicked="#Showdata" prefHeight="25.0" prefWidth="111.0" text="Afficher" />
+      <DatePicker fx:id="dateP" layoutX="474.0" layoutY="27.0" />
+   </children>
+</AnchorPane>

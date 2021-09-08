@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d310fad6-f69d-432a-a4b5-6a248321502d" name="Default Changelist" comment="Ajout de prévisions heure par heure.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/appmeteo/controller/AppMeteoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/appmeteo/controller/AppMeteoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/appmeteo/controller/fav.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/appmeteo/controller/fav.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/app/appmeteo/view/appmeteo.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/app/appmeteo/view/appmeteo.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="appmeteo" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="appmeteo" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="appmeteo" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="appmeteo" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1nbzTxFgfyCHN6ooVWVdeIvCIOd" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3586207" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Moe\Desktop\L2 Informatique\SEMESTRE 2\PROJET- Génie Logiciel\appmeteo\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.appmeteo [run]">
+    <configuration name="AppMeteo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.appmeteo.AppMeteo" />
+      <module name="appmeteo.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.appmeteo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppMeteoCLI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.appmeteo.AppMeteoCLI" />
+      <module name="appmeteo.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.appmeteo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="appmeteo [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="appmeteo-master [runCLI]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runCLI" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="gradlew" type="ShConfigurationType" temporary="true">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/gradlew" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.appmeteo [run]" />
+        <item itemvalue="Gradle.appmeteo-master [runCLI]" />
+        <item itemvalue="Shell Script.gradlew" />
+        <item itemvalue="Application.AppMeteoCLI" />
+        <item itemvalue="Application.AppMeteo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Moe\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d310fad6-f69d-432a-a4b5-6a248321502d" name="Default Changelist" comment="" />
+      <created>1611673589552</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611673589552</updated>
+      <workItem from="1611673590599" duration="182000" />
+      <workItem from="1611673774871" duration="995000" />
+      <workItem from="1612109277157" duration="242000" />
+      <workItem from="1612113774360" duration="15724000" />
+      <workItem from="1612268869989" duration="3351000" />
+      <workItem from="1612272280253" duration="8395000" />
+      <workItem from="1612304784790" duration="79000" />
+      <workItem from="1612378989894" duration="9664000" />
+      <workItem from="1612529407067" duration="3078000" />
+      <workItem from="1612534393268" duration="1097000" />
+      <workItem from="1612614555849" duration="1295000" />
+      <workItem from="1612617931091" duration="1264000" />
+      <workItem from="1612812574252" duration="13450000" />
+      <workItem from="1612830160946" duration="7000" />
+      <workItem from="1612831197090" duration="179000" />
+      <workItem from="1612872262500" duration="4581000" />
+      <workItem from="1612955242961" duration="40000" />
+      <workItem from="1612955680363" duration="13000" />
+      <workItem from="1612993370139" duration="7920000" />
+      <workItem from="1613076992519" duration="8452000" />
+      <workItem from="1613478114988" duration="10694000" />
+    </task>
+    <task id="LOCAL-00001" summary="Update du programme">
+      <created>1612531132066</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612531132066</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ajout de la liste de favoris">
+      <created>1612831349776</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1612831349776</updated>
+    </task>
+    <task id="LOCAL-00003" summary="-Arrondi de la température dans CLI.&#10;-Correction du button afficher quand on change de date dans le calendrier.&#10;-Ajout d'un nombre maximum de villes favoris.&#10;-Désactivation du button &quot;Ajouter&quot; quand on atteint la limite de villes favorites.&#10;-Désactivation du button &quot;Supprimer&quot; quand il y a 0 villes favorites.&#10;-Ajout ou suppression instantané des villes à droite avec leur température quand on ajoute ou on supprime les villes dans la barre de favoris.">
+      <created>1613001227657</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1613001227657</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Ajout de prévisions heure par heure.">
+      <created>1613084908334</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1613084908334</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Update du programme" />
+    <MESSAGE value="ajout de la liste de favoris" />
+    <MESSAGE value="-Arrondi de la température dans CLI.&#10;-Correction du button afficher quand on change de date dans le calendrier.&#10;-Ajout d'un nombre maximum de villes favoris.&#10;-Désactivation du button &quot;Ajouter&quot; quand on atteint la limite de villes favorites.&#10;-Désactivation du button &quot;Supprimer&quot; quand il y a 0 villes favorites.&#10;-Ajout ou suppression instantané des villes à droite avec leur température quand on ajoute ou on supprime les villes dans la barre de favoris." />
+    <MESSAGE value="aman kahnekteb&#10;haka&#10;ghodwa nrawah" />
+    <MESSAGE value="Ajout de prévisions heure par heure." />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout de prévisions heure par heure." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="188" y="171" width="1292" height="851" key="#Project_Structure" timestamp="1612131429707">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="188" y="171" width="1292" height="851" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1612131429707" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1613001361911">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1613001361911" />
+    <state width="1419" height="178" key="GridCell.Tab.0.bottom" timestamp="1613489983391">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1419" height="178" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613489983391" />
+    <state width="1419" height="178" key="GridCell.Tab.0.center" timestamp="1613489983391">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1419" height="178" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613489983391" />
+    <state width="1419" height="178" key="GridCell.Tab.0.left" timestamp="1613489983391">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1419" height="178" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613489983391" />
+    <state width="1419" height="178" key="GridCell.Tab.0.right" timestamp="1613489983391">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1419" height="178" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613489983391" />
+    <state width="938" height="348" key="GridCell.Tab.1.bottom" timestamp="1612617883309">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612617883309" />
+    <state width="938" height="348" key="GridCell.Tab.1.center" timestamp="1612617883309">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612617883309" />
+    <state width="938" height="348" key="GridCell.Tab.1.left" timestamp="1612617883309">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612617883309" />
+    <state width="938" height="348" key="GridCell.Tab.1.right" timestamp="1612617883309">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612617883309" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1613078266202">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1613078266202" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1613084918051">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1613084918051" />
+    <state x="776" y="298" key="chooseDestDirectoryDialog" timestamp="1612131640206">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="776" y="298" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612131640206" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612993434524">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612993434524" />
+    <state x="726" y="421" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1612534089609">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="726" y="421" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612534089609" />
+    <state x="342" y="140" key="new project wizard" timestamp="1612955276077">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="140" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1612955276077" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1613080206422">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1613080206422" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1612994854318">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1612994854318" />
+    <state x="790" y="311" key="svn.repositoryBrowser" timestamp="1612530665311">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="790" y="311" key="svn.repositoryBrowser/0.0.1920.1040@0.0.1920.1040" timestamp="1612530665311" />
+  </component>
+</project>
